@@ -1,0 +1,14 @@
+.animate-jiggle {
+  animation-name: jiggle;
+  animation-duration: 0.2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes jiggle {
+  from {
+    margin: 3px 0 0 3px;
+  }
+  to {
+    margin: 0 3px 3px 0;
+  }
+}
