@@ -48,6 +48,11 @@ export const vars = createGlobalTheme(':root', {
     'green-700': colors.emerald[700],
     'green-800': colors.emerald[800],
     'green-900': colors.emerald[900],
+
+    'red-500': colors.red[500],
+    'red-600': colors.red[600],
+    'red-700': colors.red[700],
+    'red-800': colors.red[800],
   },
   borderRadius: {
     '0x': borderRadiusScale(0),
@@ -78,3 +83,10 @@ export const vars = createGlobalTheme(':root', {
     '5x': lineHeightScale(5),
   },
 });
+
+export const useHoverStyle = {
+  cursor: 'crosshair',
+  ':hover': {
+    filter: 'invert(1)',
+  }
+};

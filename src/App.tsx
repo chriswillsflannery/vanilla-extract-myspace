@@ -3,11 +3,10 @@ import { Comments } from './components/Comments/Comments';
 import { ThreeEightsGrid } from './components/ThreeEighthsGrid/ThreeEighthsGrid';
 import { sprinkles } from './sprinkles.css';
 
+import './animations.css';
+
 const APP_STYLE = sprinkles({
-  background: {
-    lightMode: 'green-500',
-    darkMode: 'gray-900',
-  },
+  background: 'gray-900',
   display: 'flex',
   justifyContent: 'center',
   paddingY: '4x',

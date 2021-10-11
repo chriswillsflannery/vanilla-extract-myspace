@@ -1,6 +1,5 @@
 import adbanner from '../../assets/prize.jpg';
 import { ADBANNER_STYLE } from "./AdBanner.css";
-import '../../animations.css';
 
 export const AdBanner = () => (
   <section className={ADBANNER_STYLE}>

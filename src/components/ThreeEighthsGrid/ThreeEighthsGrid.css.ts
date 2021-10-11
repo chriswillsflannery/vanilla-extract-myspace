@@ -2,7 +2,6 @@ import { style } from "@vanilla-extract/css";
 
 export const THREEEIGHTHS_STYLE = style({
   width: '100%',
-  border: '1px solid white',
   height: '50rem',
   display: 'grid',
   gridTemplateColumns: '3fr 5fr',
